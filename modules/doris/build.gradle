@@ -1,0 +1,9 @@
+description = "Testcontainers :: JDBC :: Doris"
+
+dependencies {
+    api project(":testcontainers")
+    api project(":jdbc")
+
+    testImplementation project(':jdbc-test')
+    testImplementation 'org.assertj:assertj-core:3.24.2'
+}
